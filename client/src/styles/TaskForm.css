@@ -1,0 +1,28 @@
+.task-form-container {
+    position : fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    max-height: 100vh; /* Adjust the max-height as needed */
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content {
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    max-width: 640px;
+    background-color: burlywood;
+}
+
+.close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
