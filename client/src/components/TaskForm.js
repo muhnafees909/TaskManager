@@ -4,6 +4,7 @@ import "../styles/TaskForm.css";
 
 function TaskForm(props) {
   const [newTodo, setNewTodo] = useState([]);
+
   const handleAddTodo = () => {
     if (newTodo.trim() !== '') {
         props.onAddTodo(newTodo);
